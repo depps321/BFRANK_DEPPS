@@ -22,6 +22,9 @@ public class Launcher {
         Launcher launcher = new Launcher();
         sessionFactory = launcher.configureSessionFactory();
         ReimbursmentDao reimbursmentDao = new ReimbursmentDao(sessionFactory);
+
+
+        //IAMCHANGING THINGS IN HerE TO MAKE SURE THEY ARE REFLECTED
         //reimbursmentDao.createNew(69.69,"Otheeeer again",4);
         //reimbursmentDao.changeStatus(7,3);
 
